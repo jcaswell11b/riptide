@@ -1,13 +1,9 @@
-version: 2.0
-
-jobs:
-  Python_3.6:
-      docker:
-        - image: circleci/python:3.6
-      steps: *steps
-
-workflows:
-  version: 2
-  build:
-    jobs:
-      - Python_3.6
+machine:
+  python:
+    version: 3.5.2
+dependencies:
+  override:
+    - pip install -r requirements.txt
+test:
+  override:
+    - nosetests init.py
