@@ -1,5 +1,5 @@
 import os
-import sys, subprocess
+import sy
 
 try:
   subprocess.call(["ps","aux"])
