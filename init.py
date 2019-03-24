@@ -5,3 +5,6 @@ try:
   subprocess.call(["ps","aux"])
 except:
   print("error")
+
+  
+  os.system("uname -a")
