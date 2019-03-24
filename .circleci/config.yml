@@ -14,4 +14,4 @@ jobs:
       - run:
           name: run tests
           command: |
-            python calculator.py
+            python init.py
