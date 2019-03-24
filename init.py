@@ -3,6 +3,7 @@ import sys, subprocess
 
 try:
   subprocess.call(["ps","aux"])
-  os.system("uname -a")
+  print("")
+  os.system("free -m")
 except:
   print("error")
