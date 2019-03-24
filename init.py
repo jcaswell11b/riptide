@@ -38,6 +38,7 @@ def stageScript():
 
 def prodScript():
     print("This is production")
+    print("this is a test...")
 
 def main():
     args()
