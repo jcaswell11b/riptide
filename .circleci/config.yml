@@ -14,4 +14,4 @@ jobs:
       - run:
           name: run tests
           command: |
-            python init.py
+            python init.py --test
