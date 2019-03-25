@@ -21,6 +21,7 @@ def args():
         if currentArgument in ("-t", "--test"):
             testScript = currentValue
             stageScript()
+            print("It worked!!!!")
         elif currentArgument in ("-h", "--help"):
             print("-t test script before executing in production\n-h prints the help menu")
             exit()
